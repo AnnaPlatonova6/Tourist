@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CruiseAway</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+  <ul id="navigation">
+    <li> <a href="index.html" id="home">Home</a> </li>
+    <li> <a href="#" id="email">Email</a> </li>
+  </ul>
+  <p>Поговорите с профессионалом <span>+993-61-00-00-00</span></p>
+  <a href="index.html" id="logo"><img src="images/logo.jpg" alt=""/></a>
+  <ul class="navigation">
+    <li class="first"> <a href="destinations.html">Круизы &amp; Направления</a> </li>
+    <li> <a href="ships.html">Корабли &amp; Деятельность</a> </li>
+    <li> <a href="cruises.html">Подготовься к своему круизу</a> </li>
+  </ul>
+  <div id="featured">
+    <div class="first">
+      <ul>
+        <li class="selected first"> <a href="featured.html">Отличные виды</a>
+          <div> <a href="#"><img src="images/couples.jpg" alt=""/></a>
+            <p>Данный сайт предусмотрен для легкого выбора своего отдыха на круизе или на курортах.</p>
+          </div>
+        </li>
+        <li> <a href="deals.html">Горячие предложения</a>
+          <div> <a href="#"><img src="images/riverside.jpg" alt=""/></a>
+            <p>Мы предлогаем вам свои услуги для легкого прибывания на отдых</p>
+          </div>
+        </li>
+        <li> <a href="offers.html">Специальные предложения</a>
+          <div> <a href="#"><img src="images/mountains.jpg" alt=""/></a>
+            <p>Специальные предложения только для вас и они у нас.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3>Найти круиз</h3>
+      <form action="#">
+        <select>
+          <option value="month">Любой месяц</option>
+        </select>
+        <select>
+          <option value="destinations">Любые направления</option>
+        </select>
+        <select>
+          <option value="ship">Любой корабль</option>
+        </select>
+        <select>
+          <option value="port">Любой порт отправления</option>
+        </select>
+        <input type="submit" value=""/>
+      </form>
+      <div>
+        <h3>Уже забронировали?</h3>
+        <ul>
+          <li> <a href="#">Ознакомьтесь с нашими экскурсиями</a>
+            <p>У нас есть разные круизные направления </p>
+          </li>
+          <li> <a href="#">Посетите наш специализированный ресторан</a>
+            <p>У нас есть лучшие предложения ресторанов.</p>
+          </li>
+          <li> <a href="#">Ознакомьтесь с нашими специальными мероприятиями</a>
+            <p>У нас есть разные экскурсии по древним городам</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <div>
+    <div class="first">
+      <h2>Горячие предложения</h2>
+      <ul>
+        <li> <a href="#"><img src="images/riverside-city.jpg" alt=""/></a> <span><a href="#">Артур Ванс</a></span>
+          <p>7 дней &amp; 3 дня выбор дней</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+        <li> <a href="#"><img src="images/kayaks.jpg" alt=""/></a> <span><a href="#">Палермо</a></span>
+          <p>Отдых на двоих у нас!</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+        <li> <a href="#"><img src="images/castle.jpg" alt=""/></a> <span><a href="#">КРУИЗЫ!</a></span>
+          <p>Отдых для семьи у нас!</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+        <li> <a href="#"><img src="images/girl-swimming.jpg" alt=""/></a> <span><a href="#">ОТДЫХ!</a></span>
+          <p>Отдых с друзьями!</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+      </ul>
+      <a href="#">Смотреть все</a> </div>
+    <div>
+      <h2>Специальные предложения</h2>
+      <ul>
+        <li> <a href="#"><img src="images/palace.jpg" alt=""/></a> <span><a href="#">Анталья</a></span>
+          <p>Лучшие круизы тут!</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+        <li> <a href="#"><img src="images/couples2.jpg" alt=""/></a> <span><a href="#">КРУИЗЫ!</a></span>
+          <p>Отдых на двоих у нас!</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+        <li> <a href="#"><img src="images/mountain-view.jpg" alt=""/></a> <span><a href="#">Валентин Динер</a></span>
+          <p>7 дней &amp; 3 дня выбор дней</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+        <li> <a href="#"><img src="images/ancient-place.jpg" alt=""/></a> <span><a href="#">ОТДЫХ!</a></span>
+          <p>Отдых для семьи у нас!</p>
+          <a href="#" class="details">Смотреть детали</a> <a href="#" class="book">Забронируйте сейчас!</a> </li>
+      </ul>
+      <a href="#">Смотреть все</a> </div>
+      <script src="index.js"></script>
+      <main>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="Rectangle 2 (4).png" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Rectangle 10.png" style="width: 100%" />
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="Rectangle 10 (3).png" style="width: 100%" />
+            </div>
+
+        </div>
+</main>
+    <div id="news">
+      <h2>Проверяй обновления</h2>
+      <a href="#">Подпишись на нас <font>Twitter</font></a> <a href="#">Like us in <font>Facebook</font></a> <a href="#">Visit our <font>Blog</font></a> <a href="#">Watch us in <font>YouTube</font></a>
+      <div>
+        <h3>Брошуры</h3>
+        <a href="#" id="download"><img src="images/brochure.jpg" alt=""/></a> <a href="#">Скачать брошуру.</a>
+        <p>Самый лучший сайт для поиска круизов и курортов</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div>
+    <ul>
+      <li><a href="about.html">Компания</a></li>
+      <li><a href="blog.html">Посетить блог</a></li>
+      <li><a href="excursions.html">экскурсии</a></li>
+    </ul>
+    <ul>
+      <li><a href="destinations.html">Круизы &amp; </a></li>
+      <li><a href="activities.html">Корабли &amp; </a></li>
+      <li><a href="restaurant.html">Рестораны</a></li>
+    </ul>
+    <ul>
+      <li><a href="featured.html">Рекомендуемые направления</a></li>
+      <li><a href="deals.html">Горячие предложения</a></li>
+      <li><a href="offers.html">Специальные возможности</a></li>
+    </ul>
+    <form action="#">
+      <span>Всегда получать обновления для</span>
+      <h2>Горячие предложения &amp; Специальные предложения</h2>
+      <input type="text" value="Enter email address" id="email" onBlur="this.value=!this.value?'Enter email address':this.value;" onFocus="this.select()" onClick="this.value='';" />
+      <input type="submit" id="submit" value=""/>
+    </form>
+  </div>
+</div>
+</body>
+</html>
